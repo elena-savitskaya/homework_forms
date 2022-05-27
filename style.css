@@ -1,0 +1,27 @@
+.main-heading {
+    text-align: center;
+    color: #ff9b00;
+}
+
+.form-elements {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.highlight {
+    color: #1c78f0;
+}
+
+.required {
+    color: #f21c1c;
+}
+
+.textarea {
+    resize: none;
+    width: 400px;
+    height: 150px;
+}
+
+.block {
+    display: block;
+}

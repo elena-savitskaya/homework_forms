@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Form elements</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 class="main-heading">Form elements</h1>
+        <form action="elements" metod="post" id="form-elements" class="form-elements">
+
+            <h2>Input type <span class="highlight">Text</span></h2>
+            <label for="name">Введите имя <span class="required">*</span></label>
+            <input type="text" id="name" neme="name" placeholder="Введите имя" required>
+
+            <h2>Input type <span class="highlight">Password</span></h2>
+            <label for="password">Введите пароль</label>
+            <input type="password" id="password" name="pass" placeholder="Введите пароль">
+
+            <h2>Input type <span class="highlight">Email</span></h2>
+            <label for="Email">Введите Email</label>
+            <input type="Email" id="Email" name="email" placeholder="Введите Email" pattern="">
+
+            <h2>Input type <span class="highlight">Number</span></h2>
+            <label for="number">Введите Число</label>
+            <input type="number" id="digin" min="10" max="100" step="10" value="20" name="number" placeholder="Введите число" value="5">
+
+            <h2>Input type <span class="highlight">Radio</span></h2>
+        <div>
+            <input type="radio" id="option1" name="gender" checked>
+            <label for="male">Мужской</label>
+            
+        </div>
+        <div>
+            <input type="radio" id="option2" name="gender">
+            <label for="female">Женский</label>
+        </div>
+        
+        <h2>Input type <span class="highlight">Checkbox</span></h2>
+       
+        <input type="checkbox" id="check1" name="checkbox" checked>
+        <label for="check1">Грибы</label>
+
+        <input type="checkbox" id="check2" name="checkbox">
+        <label for="check2">Сыр</label>
+
+        <input type="checkbox" id="check3" name="checkbox" checked>
+        <label for="check3">Помидоры</label>
+
+        <input type="checkbox" id="check4" name="checkbox">
+        <label for="check4">Зелень</label>
+
+        <div>
+        <h2>Input type <span class="highlight">Textarea</span></h2>
+        <label for="textarea" class="block">Textarea</label>
+        <textarea class="textarea" id="textarea">Я считаю...</textarea>
+        </div>
+        
+        <h2>Input type <span class="highlight">file</span></h2>
+        <label for="file">Загрузите file</label>
+        <input type="file" id="file" accept="image/png, image/jpg">
+
+        <h2>Input type <span class="highlight">serch</span></h2>
+        <input type="search">
+
+        <h2>Input type <span class="highlight">color</span></h2>
+        <input type="color">
+
+        <h2>Input type <span class="highlight">tel</span></h2>
+        <label for="tel">Введите телефон</label>
+        <input type="tel" id="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+        placeholder="+38" required>
+        
+        <h2>Input type <span class="highlight">Select</span>element</h2>
+        <select name="country" id="country">
+            <option value="Ukraine">Ukraine</option>
+            <option value="Poland">Poland</option>
+            <option value="USA">USA</option>
+            <option value="France">France</option>
+            <option value="England">England</option>
+        </select>
+       
+        <h2>Input type <span class="highlight">Reset</span></h2>
+        <input type="reset" value="Сбросить">
+
+        <h2>Input type <span class="highlight">Submit</span></h2>
+        <input type="submit" value="Send">
+        
+        <h2>Button type <span class="highlight">Button</span></h2>
+        <button type="submit">Отправить</button>
+
+        </form>
+    </body>
+</html>    
